@@ -1,0 +1,10 @@
+course=input("enter your course")
+if course == "BSCIT" :
+   percentage=int(input("enter your percentage "))
+   sub=input(" Enter your subject")
+   if sub=="maths":
+     print("success")
+   else:
+     print("not success")
+else:
+  print("not eligible")
