@@ -1,0 +1,12 @@
+def admission_process():
+ course=input("Enter your course")
+if course=="BSCIT":
+   percentage=(input("Enter your percentage"))
+   sub=input("Enter your sub")
+   if sub=="maths":
+      print("sucess")
+   else:
+     print("not success")
+else:
+     print("not eligible")
+admission_process()
